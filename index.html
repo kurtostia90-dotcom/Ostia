@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#111110">
+  <meta name="description" content="Kurt's portfolio — a fourth-year student learning and making for the web.">
+  <title>Kurt Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400;1,9..144,600&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="javascript.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="navigation container" aria-label="Main navigation">
+      <a class="wordmark" href="index.html" aria-label="Kurt, home">Kurt<span>.</span><small>STUDENT · CREATIVE</small></a>
+      <span class="nav-note">A STUDENT LEARNING BY MAKING</span>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation"><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html" class="nav-contact">Get in touch <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero home-hero" id="home" aria-labelledby="hero-heading">
+      <div class="hero-topline container">
+        <span>FOURTH-YEAR STUDENT</span>
+        <span>CURIOUS BY NATURE · LEARNING BY DESIGN</span>
+      </div>
+      <div class="hero-main container">
+        <div class="hero-copy">
+          <p class="hero-kicker">A student finding my creative point of view</p>
+          <h1 id="hero-heading" aria-label="Hello, I'm Kurt. A fourth-year student learning as I go.">
+            <span class="hello-line">Hello, I'm</span>
+            <span class="intro-line"><span class="name-highlight" id="typed-name" aria-hidden="true">Kurt</span><span class="hero-period is-visible" aria-hidden="true">.</span></span>
+          </h1>
+          <p class="hero-side-note">Learning to shape ideas<br>into thoughtful digital experiences.</p>
+        </div>
+        <div class="moon-scene" role="img" aria-label="An animated moon floating among stars">
+          <span class="moon-star moon-star-one" aria-hidden="true">✦</span>
+          <span class="moon-star moon-star-two" aria-hidden="true">✧</span>
+          <span class="moon-star moon-star-three" aria-hidden="true">·</span>
+          <span class="moon-orbit" aria-hidden="true"><i></i></span>
+          <span class="moon" aria-hidden="true"></span>
+          <span class="moon-caption">A LITTLE SPACE TO DREAM</span>
+        </div>
+        <a class="hero-contact" href="contact.html" aria-label="Contact Kurt">CONTACT ME <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="hero-bottom container">
+        <span></span>
+        <a href="projects.html">EXPLORE MY WORK <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><a class="wordmark footer-mark" href="index.html" aria-label="Kurt, home">Kurt.</a><p>Made with curiosity and a few too many browser tabs.</p><span class="footer-year">© <span id="year">2026</span> KURT</span></div>
+  </footer>
+</body>
+</html>

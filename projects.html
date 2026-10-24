@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#111110">
+  <meta name="description" content="A project from Kurt's learning journey.">
+  <title>Projects — Kurt</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400;1,9..144,600&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="javascript.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="navigation container" aria-label="Main navigation">
+      <a class="wordmark" href="index.html" aria-label="Kurt, home">Kurt<span>.</span><small>STUDENT · CREATIVE</small></a>
+      <span class="nav-note">A STUDENT LEARNING BY MAKING</span>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation"><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html" aria-current="page">Projects</a>
+        <a href="contact.html" class="nav-contact">Get in touch <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+  <main id="main" class="page-main container">
+    <div class="section-label"><span>02 &nbsp; / &nbsp; THE PRACTICE</span><span>ONE PROJECT · ONE STEP AT A TIME</span></div>
+    <section class="projects section-space standalone-projects" aria-labelledby="projects-heading">
+      <div class="projects-heading-row">
+        <h1 class="section-heading" id="projects-heading">Things I<br><em>learn.</em></h1>
+        <p class="projects-intro">Here is one project from my learning journey, and a chance to practice building a clear, welcoming website.</p>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card project-journal">
+          <figure class="project-art project-screenshot">
+            <button class="screenshot-link" type="button" aria-label="View the Commission on Human Rights project screenshot">
+              <img src="images/CHR.png" alt="Screenshot of a Commission on Human Rights website homepage featuring legal consultation information">
+            </button>
+            <figcaption>Commission on Human Rights ScreenShot</figcaption>
+          </figure>
+          <div class="project-details">
+            <div class="project-meta"><span>01 / WEBSITE PROJECT</span><span>WEB DESIGN · DEVELOPMENT</span></div>
+            <h2>Commission on Human Rights</h2>
+            <p>A website homepage for the Commission on Human Rights of the Philippines, presenting human-rights legal consultation information and a clear path to learn more.</p>
+            <div class="contribution"><span>MY CONTRIBUTION</span><p>I contributed to designing the website layout in figma.</p></div>
+          </div>
+        </article>
+      </div>
+      <p class="projects-note"><span aria-hidden="true">↗</span> More projects will find their way here as I keep learning.</p>
+    </section>
+  </main>
+  <dialog class="image-lightbox" aria-labelledby="lightbox-caption">
+    <form method="dialog" class="lightbox-controls">
+      <button class="lightbox-close" aria-label="Close image">×</button>
+    </form>
+    <figure>
+      <img src="images/CHR.png" alt="Full-size screenshot of the Commission on Human Rights website homepage">
+      <figcaption id="lightbox-caption">Commission on Human Rights — project screenshot</figcaption>
+    </figure>
+  </dialog>
+  <footer class="site-footer"><div class="container footer-inner"><a class="wordmark footer-mark" href="index.html" aria-label="Kurt, home">Kurt.</a><p>Made with curiosity and a few too many browser tabs.</p><a class="back-top" href="index.html">BACK HOME ↗</a><span class="footer-year">© <span id="year">2026</span> KURT</span></div></footer>
+</body>
+</html>
